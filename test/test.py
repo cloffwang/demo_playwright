@@ -1,5 +1,5 @@
 import pytest
-from playwright.sync_api import sync_playwright, Page, Browser, Playwright
+from playwright.sync_api import sync_playwright
 from page import HomePage
 
 def test_result_appear():
