@@ -1,11 +1,28 @@
+# Currency Converter Test Demo
 This is a demo to test https://github.com/aswinsmenon/currency-converter
 
-Step1: launch the service
+## Setup Instructions
 
-Step2: create venv by python -m venv venv and activate it
+1.  **Clone the Target Service Repository and Launch it** 
 
-Step3: install package by pip install -r requirement.txt
+2.  **Clone This Test Repository**
 
-Step4: install playwright browser by playwright install
-
-Step5: pytest test/test.py
+3.  **Create and Activate Virtual Environment:**
+    ```bash
+    python -m venv venv
+    .\venv\Scripts\activate # windows
+    #or
+    source venv/bin/activate # mac/linux
+    ```
+4.  **Install Python Dependencies:**
+    ```bash
+    pip install -r requirement.txt
+    ```
+5.  **Install Playwright Browsers:**
+    ```bash
+    playwright install
+    ```
+## Running the Tests
+```bash
+pytest test/test.py
+```
