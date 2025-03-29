@@ -1,0 +1,7 @@
+input,from_cur,to_cur,expected
+1,aave,aave,1
+1,aave,ada,243.36
+1,aave,aed,685.71
+1,ada,aed,2.82
+2,ada,aed,5.64
+10000000000,ada,aed,28176809869.39
