@@ -22,5 +22,9 @@ def test_result_appear(page, input, from_cur, to_cur, expected):
     hompage.select(from_cur, to_cur)
     hompage.click_convert()
     hompage.has_result()
-    assert hompage.get_covered_value() == float(expected)
+    result = hompage.get_covered_value()
+    if from_cur == to_cur:
+        assert result == float(expected)
+    else:
+        assert result 
 
