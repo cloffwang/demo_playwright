@@ -1,0 +1,4 @@
+from_cur,to_cur,expected
+aave,aave,1
+aave,ada,243.36
+aave,aed,685.71

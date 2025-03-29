@@ -23,6 +23,11 @@ class HomePage:
     def click_convert(self):
         self.button.click()
     
-    def is_text_appear(self):
+    def has_result(self) -> bool:
         expect(self.result).to_be_visible()
+
+    def get_covered_value(self):
+        text = self.result.text_content()
+        converted = text.strip().split('=')[-1].strip().split()[0]
+        return float(converted)
         

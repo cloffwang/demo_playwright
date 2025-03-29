@@ -24,5 +24,5 @@ This is a demo to test https://github.com/aswinsmenon/currency-converter
     ```
 ## Running the Tests
 ```bash
-pytest test/test.py
+pytest
 ```
